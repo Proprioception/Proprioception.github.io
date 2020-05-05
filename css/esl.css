@@ -191,6 +191,7 @@ h3{
 	height:323px;
 	box-sizing:border-box;
 	display:flex;
+	flex-direction:row;
 	flex-wrap:wrap;
 }
 .assignment_table table{
@@ -199,6 +200,9 @@ h3{
 	border-width:100%;
 	padding-top:10px;
 	padding-bottom:10px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
 }
 .footer{
 	border:1px solid black;
