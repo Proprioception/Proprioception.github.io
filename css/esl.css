@@ -7,18 +7,12 @@ h1{
 	letter-spacing:5px;
 	border:0.5px solid black;
 	display:flex;
-	flex-direction:row;
 	flex-wrap:wrap;
 	box-sizing:border-box;
 }
 h1 a{
 	color:white;
 	text-decoration:none;
-	display:flex;
-	flex-direction:row;
-	justify-content:center;
-	flex-wrap:wrap;
-	text-align:center;
 }
 h1 a:hover{
 	color:rgba(240,240,240,0.2);
