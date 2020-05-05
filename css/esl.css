@@ -6,8 +6,8 @@ h1{
 	font-family:calibri;
 	letter-spacing:5px;
 	border:0.5px solid black;
-	display:flex;
-	flex-wrap:wrap;
+	max-width:100%;
+	margin:auto;
 	box-sizing:border-box;
 }
 h1 a{
@@ -28,7 +28,6 @@ h1 a:hover{
 	text-align:center;
 	display:flex;
 	flex-direction:row;
-	flex-wrap:wrap;
 	justify-content:center;
 	
 }
@@ -184,7 +183,6 @@ h3{
 	box-sizing:border-box;
 	display:flex;
 	flex-direction:row;
-	justify-content:center;
 	flex-wrap:wrap;
 }
 .assignment_table img{
@@ -192,6 +190,8 @@ h3{
 	width:243px;
 	height:323px;
 	box-sizing:border-box;
+	display:flex;
+	flex-wrap:wrap;
 }
 .assignment_table table{
 	border-top:3px dashed black;
@@ -199,10 +199,6 @@ h3{
 	border-width:100%;
 	padding-top:10px;
 	padding-bottom:10px;
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	justify-content:center;
 }
 .footer{
 	border:1px solid black;
