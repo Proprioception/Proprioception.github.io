@@ -190,6 +190,8 @@ h3{
 	width:243px;
 	height:323px;
 	box-sizing:border-box;
+	display:flex;
+	flex-wrap:wrap;
 }
 .assignment_table table{
 	border-top:3px dashed black;
