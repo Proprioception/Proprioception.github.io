@@ -229,8 +229,6 @@ h3{
 	flex-wrap:wrap;
 }
 .assignment_table table{
-	border-top:3px dashed black;
-	border-bottom:3px dashed black;
 	border-width:100%;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -251,8 +249,6 @@ h3{
 	flex-wrap:wrap;
 }
 .assignment_table_find table{
-	border-top:3px dashed black;
-	border-bottom:3px dashed black;
 	border-width:100%;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -305,3 +301,27 @@ h3{
 	background-color:rgba(250,250,250,0.5);
 	color:black;
 }
+.common_nouns tr, td{
+	border:none;
+	box-sizing:border-box;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	padding: 5px;
+}
+.common_nouns td{
+	background-color:black;
+}
+.common_nouns img{
+	border:1px solid black;
+	width:350px;
+	height:350px;
+	box-sizing:border-box;
+	display:flex;
+	flex-wrap:wrap;
+	background-color:white;
+}
+.common_nouns table{
+	border-width:100%;
+}
+	
