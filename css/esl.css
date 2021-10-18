@@ -263,8 +263,6 @@ h3{
 	flex-direction:row;
 	justify-content:center;
 	margin-top:auto;
-	padding-left:600px;
-	padding-right:600px;
 }
 .footer p {
 	text-align:center;
@@ -272,6 +270,7 @@ h3{
 	font-family: calibri;
 	display:flex;
 	flex-direction:column;
+	justify-content:center;
 }
 .footer a{
 	text-decoration:underline;
