@@ -309,11 +309,16 @@ h3{
 .ulu_picture img {
 	width: 400px;
 	height:390px;
-	border: 3px solid black;
-	margin: 20px;
+	border: 5px solid black;
+	margin: 10px;
+	background-color:black;
+}
+.ulu_picture img:hover {
+	box-shadow: 5px 10px 25px white;
+	transition: .5s ease-out;
 }
 .ulu_picture p {
-	padding: 15px;
+	padding: 25px;
 	margin-left:5px;
 	margin-right:25px;
 	background-color: rgba(100,100,100, 0.8);
