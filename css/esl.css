@@ -47,9 +47,10 @@ body {
 	height:auto;
 }
 .header a:hover{
-	font-size: 92px;
-	transition: .5s ease;
+	font-size: 95px;
+	transition: .5s ease-in;
 	text-decoration: underline;
+	background-color:rgba(50,50,50,0.8); 
 }
 .navigation {
 	color:white;
@@ -138,14 +139,11 @@ h3{
 	position:sticky;
 }
 .grades_list{
-	margin:0px;
-	margin-right:45px;
-	margin-left:15px;
-	padding:0px;
+	margin: auto 0;
 }
 .grades_list li{
 	display:block;
-	margin:25px;
+	margin: 15px;
 }
 .grades_list a{
 	color:white;
@@ -264,11 +262,11 @@ h3{
 	font-family:calibri;
 	color:white;
 	text-align:center;
-	font-size:15px;
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
 	margin-top:auto;
+	width:100%;
 }
 .footer a{
 	text-decoration:underline;
