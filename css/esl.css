@@ -1,6 +1,5 @@
 body {
 	min-height: 100vh;
-	max-width: 200vh;
 	display:flex;
 	flex-direction:column;
 	width:100%;
