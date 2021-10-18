@@ -267,9 +267,6 @@ h3{
 	text-align:center;
 	color: white;
 	font-family: calibri;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
 }
 .footer a{
 	text-decoration:underline;
